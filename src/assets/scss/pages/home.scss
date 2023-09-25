@@ -1,0 +1,75 @@
+.f-c{
+    font-size: 1.3rem;
+}
+
+.f-c1{
+    font-size: 3rem;
+}
+
+.management-container {
+    gap: 120px;
+    font-size: 2.18rem !important;
+}
+.mob-hidden{
+    display: flex;
+}
+.mob{
+    display: none;
+}
+.bolb{
+    margin-top: 200px;
+    font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+    .bolb{
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .f-c{
+        font-size: 1rem;
+    } 
+    .f-c1{
+        font-size: 1.3rem;
+    }
+    .management-container {
+        gap: 100px;
+        font-size: 1.8rem !important;
+    }
+    .mob-hidden{
+        display: none;
+    }
+    .mob{
+        display: block;
+    }
+    .bolb{
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 375px) {
+    .f-c{
+        font-size: .8rem;
+        .f-c1{
+            font-size: 1rem;
+        }        
+    }   
+    .management-container {
+        gap: 50px;
+        font-size: 1.5rem !important;
+    }
+    .bolb{
+        margin-top: 0;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        font-size: 32px;
+    }
+}
